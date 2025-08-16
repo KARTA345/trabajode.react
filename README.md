@@ -52,7 +52,7 @@ npm install SweetAlert2
 | **Bootstrap 5**        | ![Bootstrap](https://img.icons8.com/color/48/bootstrap.png)           | Framework CSS para facilitar el diseño responsive y atractivo.                               |
 | **JavaScript**         | ![JS](https://img.icons8.com/color/48/javascript--v1.png)             | Lenguaje de programación para la lógica y la interactividad en la web.                       |
 | **React**              | ![React](https://img.icons8.com/color/48/react-native.png)            | Biblioteca de JavaScript para construir interfaces de usuario basadas en componentes.        |
-| **Create React App**   | ![CRA](https://tse3.mm.bing.net/th/id/OIP.TIx31Rjgp7e4G_HwSxTxkAAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3)     | Herramienta oficial para crear proyectos React con configuración inicial lista para usar.    |
+| **Create React App**   | ![CRA](/public/react.png)     | Herramienta oficial para crear proyectos React con configuración inicial lista para usar.    |
 | **SweetAlert2**        | ![SweetAlert2](https://cdn-icons-png.flaticon.com/128/3347/3347907.png) | Librería JS para mostrar alertas modernas, elegantes y personalizadas. |
 
 ---
