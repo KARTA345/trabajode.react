@@ -52,8 +52,8 @@ npm install SweetAlert2
 | **Bootstrap 5**        | ![Bootstrap](https://img.icons8.com/color/48/bootstrap.png)           | Framework CSS para facilitar el diseño responsive y atractivo.                               |
 | **JavaScript**         | ![JS](https://img.icons8.com/color/48/javascript--v1.png)             | Lenguaje de programación para la lógica y la interactividad en la web.                       |
 | **React**              | ![React](https://img.icons8.com/color/48/react-native.png)            | Biblioteca de JavaScript para construir interfaces de usuario basadas en componentes.        |
-| **Create React App**   | ![CRA](https://img.icons8.com/?size=48&id=t9R7H4l3cOyb&format=png)     | Herramienta oficial para crear proyectos React con configuración inicial lista para usar.    |
-| **SweetAlert2**        | ![SweetAlert2](https://img.icons8.com/external-flat-icons-inmotus-design/48/external-alert-user-interface-flat-icons-inmotus-design.png) | Librería JS para mostrar alertas modernas, elegantes y personalizadas. |
+| **Create React App**   | ![CRA](https://tse3.mm.bing.net/th/id/OIP.TIx31Rjgp7e4G_HwSxTxkAAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3)     | Herramienta oficial para crear proyectos React con configuración inicial lista para usar.    |
+| **SweetAlert2**        | ![SweetAlert2](https://cdn-icons-png.flaticon.com/128/3347/3347907.png) | Librería JS para mostrar alertas modernas, elegantes y personalizadas. |
 
 ---
 
@@ -61,25 +61,28 @@ npm install SweetAlert2
 
 ```plaintext
 /
+├── node_modules/             # Contiene todas las dependencias y librerías del proyecto.
 ├── public/
-│   ├── index.html            # Plantilla HTML principal de la app
-│   └── favicon.ico           # Ícono de la aplicación
-├── src/
-│   ├── index.js              # Punto de entrada principal
-│   ├── App.js                # Componente raíz
-│   ├── App.css               # Estilos globales de la app
-│   ├── pages/                # Páginas completas (vistas o interfaces completas)
-│   │   ├── Home.jsx          # Ejemplo de página de inicio
-│   │   └── About.jsx         # Ejemplo de página "Acerca de"
-│   ├── components/           # Componentes reutilizables
-│   │   ├── Navbar.jsx        # Barra de navegación
-│   │   └── Footer.jsx        # Pie de página
-│   ├── playground/           # Espacio para pruebas rápidas
-│   ├── assets/               # Recursos estáticos (imágenes, íconos, etc.)
-│   └── styles/               # Archivos de estilos personalizados
-├── package.json              # Configuración y dependencias del proyecto
-├── package-lock.json         # Bloqueo de versiones de dependencias
-└── README.md                 # Documentación del proyecto
+│   ├── index.html            # Plantilla principal de la aplicación. Es el único HTML del proyecto.
+│   ├── favicon.ico           # Ícono de la pestaña del navegador.
+│   ├── logo192.png           # Ícono de la app para dispositivos móviles.
+│   ├── logo512.png           # Ícono de la app de alta resolución.
+│   ├── manifest.json         # Archivo de configuración para Progressive Web Apps (PWA).
+│   └── robots.txt            # Reglas para los rastreadores de motores de búsqueda.
+├── src/                      # Directorio de código fuente.
+│   ├── App.css               # Estilos globales o del componente App.
+│   ├── App.js                # Componente raíz de la aplicación.
+│   ├── index.js              # Punto de entrada de la aplicación. Renderiza el componente App.
+│   ├── logo.svg              # Archivo de logo para el componente App.
+│   ├── reportWebVitals.js    # Mide el rendimiento de la aplicación.
+│   ├── setupTests.js         # Archivo de configuración para pruebas (usando Jest/RTL).
+│   └── pages/                # Carpeta para organizar componentes de página completa.
+│       └── loginpage/
+│           ├── LoginPage.css     # Estilos específicos para la página de login.
+│           └── LoginPage.jsx     # Componente de React para la página de login.
+├── package.json              # Lista las dependencias y scripts para ejecutar la aplicación.
+├── package-lock.json         # Bloquea las versiones de las dependencias para consistencia.
+└── README.md                 # Documentación del proyecto.                
 
 ```
 ---
